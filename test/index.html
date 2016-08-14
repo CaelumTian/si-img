@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img, div{
+            width: 500px;
+            height: 500px;
+            display: block;
+            margin-bottom: 100px;
+            opacity: 0;
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <img src="" class="img-load" data-src="http://gw.alicdn.com/bao/uploaded/TB1niChLpXXXXX2XXXXXXXXXXXX-300-74.png" alt="">
+    <img class="img-load" data-src="http://gw.alicdn.com/bao/uploaded/TB1_FlkLpXXXXbTXVXXXXXXXXXX-725-288.png" alt="">
+    <img src="" class="img-load" data-src="http://gw.alicdn.com/bao/uploaded/TB1WDRuLpXXXXXiXFXXXXXXXXXX-172-208.png" alt="">
+    <img data-cache=1 class="img-load" data-src="http://gw.alicdn.com/bao/uploaded/TB1QgdaLXXXXXXcXXXXXXXXXXXX-140-50.png" alt="">
+    <div data-cache=1 class="img-load" data-src="http://gw.alicdn.com/bao/uploaded/TB1a373KVXXXXc6XXXXXXXXXXXX-140-50.png" alt=""></div>
+    <script src="../src/img.js"></script>
+    <script>
+        SI.img({
+            fadeIn: function() {
+                this.style.opacity = 1;
+            }
+        })
+    </script>
+</body>
+</html>

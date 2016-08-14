@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="./js/jquery-1.11.2.js"></script>
+	<script src="./js/imgload.js"></script>
+	<style>
+		p{
+			width:3200px;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		<img src="" alt="" data-imgload="http://code.ciaoca.com/jquery/lazyload/demo/img/bmw_m1_hood.jpg" width="765" height="574"/>
+
+		<img src="" alt="" data-imgload="http://code.ciaoca.com/jquery/lazyload/demo/img/bmw_m1_side.jpg" width="765" height="574"/>
+
+		<img src="" alt="" data-imgload="http://code.ciaoca.com/jquery/lazyload/demo/img/viper_corner.jpg" width="765" height="574">
+
+		<img src="" alt="" data-imgload="http://code.ciaoca.com/jquery/lazyload/demo/img/bmw_m3_gt.jpg" width="765" height="574">
+	</p>
+</body>
+<script>
+	jQuery(document).ready(function($) {
+		$("img").imgload();
+	});
+</script>
+</html>
