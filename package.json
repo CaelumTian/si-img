@@ -1,5 +1,5 @@
 {
-  "name": "lib-img",
+  "name": "si-img",
   "version": "1.0.0",
   "description": "移动端图片惰性加载",
   "main": "index.js",
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/T-phantom/lib-img.git"
+    "url": "git+https://github.com/T-phantom/si-img.git"
   },
   "keywords": [
     "js",
-    "bridge",
-    "native",
-    "hybird"
+    "lazyload",
+    "图片优化",
+    "惰性加载"
   ],
   "author": "caelumtian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/T-phantom/lig-img/issues"
+    "url": "https://github.com/T-phantom/si-img/issues"
   },
-  "homepage": "https://github.com/T-phantom/lib-img#readme",
+  "homepage": "https://github.com/T-phantom/si-img#readme",
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-core": "^6.11.4",
