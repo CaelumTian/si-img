@@ -229,7 +229,7 @@
             }else {
                 //背景图片设置src
                 let cacheData = _getImgBase64Data(url);
-                ele.style.backgroundImage = "url(" + cacheData || url + ")";
+                ele.style.backgroundImage = "url(" + (cacheData || url) + ")";
             }
             //删除惰性加载的样式
             ele.classList.remove(opts.class);
