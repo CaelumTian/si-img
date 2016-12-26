@@ -41,7 +41,7 @@
             if(Array.from) {
                 return Array.from(likeArray);
             }else {
-                Array.prototype.slice.call(likeArray);
+                return Array.prototype.slice.call(likeArray);
             }
         }
     };
